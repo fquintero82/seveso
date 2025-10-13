@@ -11,6 +11,16 @@ On the left panel, click on FIM Scenarios, click on Upload from URL
 and paste the next link
 https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/seveso.json
 
+![Alt text](screen1.png "")
+
+Click on Add
+![Alt text](screen2.png "")
+
+Click on Flood Scenarios and select Seveso
+![Alt text](screen3.png "")
+
+Browse scenarios using the slider
+![Alt text](screen4.png "")
 
 # Disclaimer: Demonstration Only
 The information, data, and flood inundation maps presented on this website are for demonstration and visualization purposes only.
