@@ -14,7 +14,7 @@
         "gauge_id": "22307",
         "latitude": 45.6424,
         "longitude": 9.144,
-        "elevation": "208 m.s.l.m.",
+        "flood_level": "208 m.s.l.m.",
         "last_reported_value": "https://idro.arpalombardia.it/it/map/sidro/#",
         "last_reported_time": ""
     },
