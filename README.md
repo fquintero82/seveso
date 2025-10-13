@@ -12,23 +12,6 @@ and paste the next link
 https://github.com/fquintero82/seveso/blob/main/seveso.json
 
 
-#Rating curve data used at the gage
-elevation[m],discharge[m3/s]
-204,0
-204.5,4.5
-205,10
-205.5,17.5
-206,32.2
-206.5,56.8
-207,74
-207.5,98
-208,115
-208.025,150
-208.05,161
-208.075,167
-208.1,177.61
-208.16,197
-
 # Disclaimer: Demonstration Only
 The information, data, and flood inundation maps presented on this website are for demonstration and visualization purposes only.
 
