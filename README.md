@@ -9,6 +9,7 @@ Visit https://hydroinformatics.uiowa.edu/lab/fims/
 
 On the left panel, click on FIM Scenarios, click on Upload from URL
 and paste the next link
+https://github.com/fquintero82/seveso/blob/main/seveso.json
 
 
 #Rating curve data used at the gage
