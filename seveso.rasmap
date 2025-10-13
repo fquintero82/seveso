@@ -5,7 +5,7 @@
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
-    <Layer Name="geo1" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\seveso.g01.hdf">
+    <Layer Name="geo1" Type="RASGeometry" Expanded="True" Filename=".\seveso.g01.hdf">
       <Layer Type="RASRiver" Checked="True">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -259,13 +259,39 @@
         <Layer Name="Regions" Type="RASEncroachmentPolygons" Filename=".\seveso.p03.hdf" />
       </Layer>
       <Layer Name="Depth" Type="RASResultsMap" Checked="True">
-        <MapParameters MapType="depth" ProfileIndex="10" ProfileName="PF 11" />
+        <MapParameters MapType="depth" ProfileIndex="13" ProfileName="PF 14" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
         <MapParameters MapType="velocity" ProfileIndex="0" ProfileName="PF 1" />
       </Layer>
-      <Layer Name="WSE" Type="RASResultsMap">
+      <Layer Name="WSE" Type="RASResultsMap" Checked="True">
         <MapParameters MapType="elevation" ProfileIndex="0" ProfileName="PF 1" />
+      </Layer>
+      <Layer Name="Depth" Type="RASResultsMap" Filename=".\conf4\Depth (PF 11).vrt">
+        <MapParameters MapType="depth" LayerName="Depth (PF 11)" OutputMode="Stored Current Terrain" StoredFilename=".\conf4\Depth (PF 11).vrt" ProfileIndex="10" ProfileName="PF 11" OverwriteOutputFilename="Depth (PF 11)" />
+      </Layer>
+      <Layer Name="conf4Contour Band Polygons14" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons14.shp" />
+      <Layer Name="conf4Contour Band Polygons13" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons13.shp" />
+      <Layer Name="conf4Contour Band Polygons12" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons12.shp" />
+      <Layer Name="conf4Contour Band Polygons11" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons11.shp" />
+      <Layer Name="conf4Contour Band Polygons10" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons10.shp" />
+      <Layer Name="conf4Contour Band Polygons9" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons9.shp" />
+      <Layer Name="conf4Contour Band Polygons8" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons8.shp" />
+      <Layer Name="conf4Contour Band Polygons7" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons7.shp" />
+      <Layer Name="conf4Contour Band Polygons6" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons6.shp" />
+      <Layer Name="conf4Contour Band Polygons5" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons5.shp" />
+      <Layer Name="conf4Contour Band Polygons4" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons4.shp" />
+      <Layer Name="conf4Contour Band Polygons3" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons3.shp" />
+      <Layer Name="conf4Contour Band Polygons2" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons2.shp" />
+      <Layer Name="conf4Contour Band Polygons1" Type="PolygonFeatureLayer" Filename=".\conf4\conf4Contour Band Polygons1.shp" />
+      <Layer Name="Depth" Type="RASResultsMap" Checked="True" Filename=".\conf4\Depth (PF 12).vrt">
+        <MapParameters MapType="depth" LayerName="Depth (PF 12)" OutputMode="Stored Current Terrain" StoredFilename=".\conf4\Depth (PF 12).vrt" ProfileIndex="11" ProfileName="PF 12" OverwriteOutputFilename="Depth (PF 12)" />
+      </Layer>
+      <Layer Name="Depth" Type="RASResultsMap" Checked="True" Filename=".\conf4\Depth (PF 13).vrt">
+        <MapParameters MapType="depth" LayerName="Depth (PF 13)" OutputMode="Stored Current Terrain" StoredFilename=".\conf4\Depth (PF 13).vrt" ProfileIndex="12" ProfileName="PF 13" OverwriteOutputFilename="Depth (PF 13)" />
+      </Layer>
+      <Layer Name="Depth" Type="RASResultsMap" Checked="True" Filename=".\conf4\Depth (PF 14).vrt">
+        <MapParameters MapType="depth" LayerName="Depth (PF 14)" OutputMode="Stored Current Terrain" StoredFilename=".\conf4\Depth (PF 14).vrt" ProfileIndex="13" ProfileName="PF 14" OverwriteOutputFilename="Depth (PF 14)" />
       </Layer>
     </Layer>
   </Results>
@@ -286,8 +312,8 @@
   <CurrentView>
     <MaxX>513522.049956341</MaxX>
     <MinX>510144.129541173</MinX>
-    <MaxY>5055360.49891731</MaxY>
-    <MinY>5052928.3009315</MinY>
+    <MaxY>5055358.11674494</MaxY>
+    <MinY>5052925.91875913</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>

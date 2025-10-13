@@ -102,14 +102,7 @@
                     "annual_chance": "",
                     "layer_id": 10
                 },
-                {
-                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/11.kml",
-                    "raster_file": "",
-                    "stage": 208.05,
-                    "discharge": 161,
-                    "annual_chance": "",
-                    "layer_id": 11
-                },
+
                 {
                     "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/12.kml",
                     "raster_file": "",

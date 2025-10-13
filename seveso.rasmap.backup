@@ -5,7 +5,7 @@
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
-    <Layer Name="geo1" Type="RASGeometry" Expanded="True" Filename=".\seveso.g01.hdf">
+    <Layer Name="geo1" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\seveso.g01.hdf">
       <Layer Type="RASRiver" Checked="True">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -13,7 +13,7 @@
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
       <Layer Type="RASBankLines" Checked="True" />
-      <Layer Type="RASXS" Checked="True" Expanded="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
+      <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="River Station" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
       <Layer Type="RASStorageArea">
@@ -258,18 +258,14 @@
         <Layer Name="Zones" Type="RASEncroachmentZones" Filename=".\seveso.p03.hdf" />
         <Layer Name="Regions" Type="RASEncroachmentPolygons" Filename=".\seveso.p03.hdf" />
       </Layer>
-      <Layer Name="WSE" Type="RASResultsMap" Checked="True" Filename=".\conf4\WSE (PF 14).vrt">
-        <Symbology>
-          <SurfaceFill Colors="-16711681,-16777077" Values="0,15" Stretched="True" AlphaTag="255" UseDatasetMinMax="False" RegenerateForScreen="False" />
-        </Symbology>
-        <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="FID" Position="5" Color="-16777216" FontSize="8.25" />
-        <MapParameters MapType="elevation" LayerName="Water Surface Elevation" OutputMode="Stored Current Terrain" StoredFilename=".\conf4\WSE (PF 14).vrt" Terrain="Terrain" ProfileIndex="13" ProfileName="PF 14" ArrivalDepth="0" />
+      <Layer Name="Depth" Type="RASResultsMap" Checked="True">
+        <MapParameters MapType="depth" ProfileIndex="10" ProfileName="PF 11" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
         <MapParameters MapType="velocity" ProfileIndex="0" ProfileName="PF 1" />
       </Layer>
       <Layer Name="WSE" Type="RASResultsMap">
-        <MapParameters MapType="elevation" ProfileIndex="9" ProfileName="PF 10" />
+        <MapParameters MapType="elevation" ProfileIndex="0" ProfileName="PF 1" />
       </Layer>
     </Layer>
   </Results>
@@ -307,7 +303,14 @@
   </AnimationSettings>
   <Units>SI Units</Units>
   <RenderMode>sloping</RenderMode>
-  <FullExtentPlotting />
+  <FullExtentPlotting>
+    <ExtentUserDefined>
+      <MaxX>512471.483700348</MaxX>
+      <MinX>505257</MinX>
+      <MaxY>5075911</MaxY>
+      <MinY>5047708</MinY>
+    </ExtentUserDefined>
+  </FullExtentPlotting>
   <MarksWarpMethod>False</MarksWarpMethod>
   <CurrentSettings>
     <ProjectSettings>
