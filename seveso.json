@@ -23,7 +23,7 @@
             "model": "HEC-RAS",
             "scenario_list": [
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/1.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/1.kml",
                     "raster_file": "",
                     "stage": 204,
                     "discharge": 0.1,
@@ -31,7 +31,7 @@
                     "layer_id": 1
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/2.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/2.kml",
                     "raster_file": "",
                     "stage": 204.5,
                     "discharge": 4.5,
@@ -39,7 +39,7 @@
                     "layer_id": 2
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/3.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/3.kml",
                     "raster_file": "",
                     "stage": 205,
                     "discharge": 10,
@@ -47,7 +47,7 @@
                     "layer_id": 3
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/4.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/4.kml",
                     "raster_file": "",
                     "stage": 205.5,
                     "discharge": 17.5,
@@ -55,7 +55,7 @@
                     "layer_id": 4
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/5.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/5.kml",
                     "raster_file": "",
                     "stage": 206,
                     "discharge": 32,
@@ -63,7 +63,7 @@
                     "layer_id": 5
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/6.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/6.kml",
                     "raster_file": "",
                     "stage": 206.5,
                     "discharge": 56.8,
@@ -71,7 +71,7 @@
                     "layer_id": 6
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/7.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/7.kml",
                     "raster_file": "",
                     "stage": 207,
                     "discharge": 74,
@@ -79,7 +79,7 @@
                     "layer_id": 7
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/8.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/8.kml",
                     "raster_file": "",
                     "stage": 207.5,
                     "discharge": 98,
@@ -87,7 +87,7 @@
                     "layer_id": 8
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/9.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/9.kml",
                     "raster_file": "",
                     "stage": 208,
                     "discharge": 115,
@@ -95,7 +95,7 @@
                     "layer_id": 9
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/10.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/10.kml",
                     "raster_file": "",
                     "stage": 208.025,
                     "discharge": 150,
@@ -103,7 +103,7 @@
                     "layer_id": 10
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/11.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/11.kml",
                     "raster_file": "",
                     "stage": 208.05,
                     "discharge": 161,
@@ -111,7 +111,7 @@
                     "layer_id": 11
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/12.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/12.kml",
                     "raster_file": "",
                     "stage": 208.075,
                     "discharge": 167,
@@ -119,7 +119,7 @@
                     "layer_id": 12
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/13.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/13.kml",
                     "raster_file": "",
                     "stage": 208.1,
                     "discharge": 177.6,
@@ -127,7 +127,7 @@
                     "layer_id": 13
                 },
                 {
-                    "vector_file": "https://github.com/fquintero82/seveso/blob/main/conf4/14.kml",
+                    "vector_file": "https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/conf4/14.kml",
                     "raster_file": "",
                     "stage": 208.16,
                     "discharge": 197,

@@ -9,7 +9,7 @@ Visit https://hydroinformatics.uiowa.edu/lab/fims/
 
 On the left panel, click on FIM Scenarios, click on Upload from URL
 and paste the next link
-https://github.com/fquintero82/seveso/blob/main/seveso.json
+https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/seveso.json
 
 
 # Disclaimer: Demonstration Only
