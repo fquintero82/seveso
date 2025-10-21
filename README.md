@@ -1,29 +1,19 @@
 # **Flood inundation mapping for Seveso River, Italy**
 
-Here is presented an application for Seveso, Italy, using the FIM deck, developed by the Hydroinformatics Lab at the University of Iowa.
+Here is presented flood inundation mapping application for Seveso, Italy.
 
 
 # Instructions
 
-Visit https://hydroinformatics.uiowa.edu/lab/fims/
+Visit https://s-iihr80.iihr.uiowa.edu/flood
 
-On the left panel, click on FIM Scenarios, click on Upload from URL
-and paste the next link
+On the load from URL option, paste this link:
 https://raw.githubusercontent.com/fquintero82/seveso/refs/heads/main/seveso.json
 
-![Alt text](screen1.png "")
-
-Click on Add
-
-![Alt text](screen2.png "")
-
-Click on Flood Scenarios and select Seveso
-
-![Alt text](screen3.png "")
 
 Browse scenarios using the slider
 
-![Alt text](screen4.png "")
+![Alt text](screen5.png "")
 
 # Disclaimer: Demonstration Only
 The information, data, and flood inundation maps presented on this website are for demonstration and visualization purposes only.
